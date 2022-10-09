@@ -5,7 +5,9 @@
 This is a template for [multi-stage build](https://docs.docker.com/develop/develop-images/multistage-build/) with Maven inside a Docker container.
 
 ```
-$ docker build -t maven-docker-template .
-$ docker run --rm -it maven-docker-template
+$ docker build -t maven-java11-template .
+$ docker run --rm -it maven-java11-template
 Hello
 ```
+
+TODO: run tests command
