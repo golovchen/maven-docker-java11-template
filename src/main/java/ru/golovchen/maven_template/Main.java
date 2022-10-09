@@ -5,6 +5,7 @@ package ru.golovchen.maven_template;
  */
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello");
+        var message = "Hello";
+        System.out.println(message);
     }
 }
